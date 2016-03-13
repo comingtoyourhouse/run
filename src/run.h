@@ -12,15 +12,6 @@ struct player {
 	bool crosshairs;
 };
 
-struct flags {
-	char opt;
-	bool r;
-	bool c;
-	bool o;
-};
-
-#define GETOPT f.opt = getopt(argc, argv, "rco:")
-
 char* filename;
 
 void init_raycaster();

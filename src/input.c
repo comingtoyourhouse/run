@@ -1,7 +1,7 @@
 #include <curses.h>
 #include <math.h>
 
-#include "ncaster.h"
+#include "run.h"
 #include "input.h"
 
 struct player get_input(struct player p) {

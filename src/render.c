@@ -1,7 +1,7 @@
 #include <curses.h>
 #include <math.h>
 
-#include "ncaster.h"
+#include "run.h"
 #include "render.h"
 
 void gen_frame(struct player p) {
